@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="34ab8f45-0b2a-430c-a3f6-f8345d849470" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +41,9 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -67,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745522092334</updated>
-      <workItem from="1745522094257" duration="298000" />
+      <workItem from="1745522094257" duration="609000" />
     </task>
     <servers />
   </component>
