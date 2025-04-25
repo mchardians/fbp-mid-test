@@ -1,6 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
 import {AuthProvider} from "@/context/AuthContext";
+
+const hanken = Hanken_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-hanken",
+  weight: ["400", "500", "700"], // sesuaikan kebutuhanmu
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${hanken.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
       <AuthProvider>
           {children}
