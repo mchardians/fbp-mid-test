@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Hanken Grotesk;
+  src: url(/public/fonts/HankenGrotesk-Regular.ttf);
+}
+
+.hanken-grotesk {
+  font-family: "Hanken Grotesk", sans-serif;
+}
